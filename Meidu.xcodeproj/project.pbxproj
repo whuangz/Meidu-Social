@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262B001B1F61712400A64847 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B001A1F61712400A64847 /* UploadVC.swift */; };
+		262D2C711F657E7B00CDEDA4 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262D2C701F657E7B00CDEDA4 /* PostCell.swift */; };
 		263506491F5B060700A6C474 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263506481F5B060700A6C474 /* AppDelegate.swift */; };
-		2635064B1F5B060700A6C474 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2635064A1F5B060700A6C474 /* ViewController.swift */; };
 		2635064E1F5B060700A6C474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2635064C1F5B060700A6C474 /* Main.storyboard */; };
 		263506501F5B060700A6C474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2635064F1F5B060700A6C474 /* Assets.xcassets */; };
 		263506531F5B060700A6C474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263506511F5B060700A6C474 /* LaunchScreen.storyboard */; };
+		264285C01F6036A6000D5233 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264285BF1F6036A6000D5233 /* UserCell.swift */; };
+		264285C21F603794000D5233 /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264285C11F603794000D5233 /* UsersVC.swift */; };
+		264285C71F60396C000D5233 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264285C61F60396C000D5233 /* User.swift */; };
+		26A2FC821F610D3B008BB5E1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2FC811F610D3B008BB5E1 /* CircleImage.swift */; };
+		26B47A851F5C44940068AD20 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B47A841F5C44940068AD20 /* LoginVC.swift */; };
+		26B47A871F5C44A60068AD20 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B47A861F5C44A60068AD20 /* SignUpVC.swift */; };
+		26C466711F66AFA500BCB460 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C466701F66AFA500BCB460 /* Post.swift */; };
+		26C466731F66B01500BCB460 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C466721F66B01500BCB460 /* FeedVC.swift */; };
+		706EE2D0EA3055E29FB4238F /* Pods_Meidu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A8BBA405D7130F1DDBB071 /* Pods_Meidu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		262B001A1F61712400A64847 /* UploadVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		262D2C701F657E7B00CDEDA4 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		263506451F5B060700A6C474 /* Meidu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meidu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		263506481F5B060700A6C474 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2635064A1F5B060700A6C474 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2635064D1F5B060700A6C474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2635064F1F5B060700A6C474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		263506521F5B060700A6C474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		263506541F5B060700A6C474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264285BF1F6036A6000D5233 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		264285C11F603794000D5233 /* UsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		264285C61F60396C000D5233 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		26A2FC811F610D3B008BB5E1 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		26B47A841F5C44940068AD20 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		26B47A861F5C44A60068AD20 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		26C466701F66AFA500BCB460 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		26C466721F66B01500BCB460 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		59A8BBA405D7130F1DDBB071 /* Pods_Meidu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meidu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		737D2C856D67F6372B6B2CBC /* Pods-Meidu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meidu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meidu/Pods-Meidu.release.xcconfig"; sourceTree = "<group>"; };
+		977433EBAAC01D4BF21154F0 /* Pods-Meidu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meidu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meidu/Pods-Meidu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				706EE2D0EA3055E29FB4238F /* Pods_Meidu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,8 @@
 			children = (
 				263506471F5B060700A6C474 /* Meidu */,
 				263506461F5B060700A6C474 /* Products */,
+				31F10DF2C2B5989D07FAD5C8 /* Pods */,
+				B19441E26CB4999B7EFB78BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,64 @@
 		263506471F5B060700A6C474 /* Meidu */ = {
 			isa = PBXGroup;
 			children = (
+				26A2FC811F610D3B008BB5E1 /* CircleImage.swift */,
+				264285C51F603931000D5233 /* Object */,
+				264285C41F60391B000D5233 /* Custom Cell */,
+				264285C31F603911000D5233 /* View Controller */,
 				263506481F5B060700A6C474 /* AppDelegate.swift */,
-				2635064A1F5B060700A6C474 /* ViewController.swift */,
 				2635064C1F5B060700A6C474 /* Main.storyboard */,
 				2635064F1F5B060700A6C474 /* Assets.xcassets */,
 				263506511F5B060700A6C474 /* LaunchScreen.storyboard */,
 				263506541F5B060700A6C474 /* Info.plist */,
 			);
 			path = Meidu;
+			sourceTree = "<group>";
+		};
+		264285C31F603911000D5233 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				26B47A841F5C44940068AD20 /* LoginVC.swift */,
+				26B47A861F5C44A60068AD20 /* SignUpVC.swift */,
+				264285C11F603794000D5233 /* UsersVC.swift */,
+				262B001A1F61712400A64847 /* UploadVC.swift */,
+				26C466721F66B01500BCB460 /* FeedVC.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		264285C41F60391B000D5233 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				264285BF1F6036A6000D5233 /* UserCell.swift */,
+				262D2C701F657E7B00CDEDA4 /* PostCell.swift */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		264285C51F603931000D5233 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				264285C61F60396C000D5233 /* User.swift */,
+				26C466701F66AFA500BCB460 /* Post.swift */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		31F10DF2C2B5989D07FAD5C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				977433EBAAC01D4BF21154F0 /* Pods-Meidu.debug.xcconfig */,
+				737D2C856D67F6372B6B2CBC /* Pods-Meidu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B19441E26CB4999B7EFB78BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59A8BBA405D7130F1DDBB071 /* Pods_Meidu.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 263506571F5B060700A6C474 /* Build configuration list for PBXNativeTarget "Meidu" */;
 			buildPhases = (
+				0540F03A4B7A0282C8E0F623 /* [CP] Check Pods Manifest.lock */,
 				263506411F5B060700A6C474 /* Sources */,
 				263506421F5B060700A6C474 /* Frameworks */,
 				263506431F5B060700A6C474 /* Resources */,
+				32A4B1AFCBBAA9CB932FAC89 /* [CP] Embed Pods Frameworks */,
+				F569A58751EED3F6B7A4D18B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +174,7 @@
 				TargetAttributes = {
 					263506441F5B060700A6C474 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9T94R4M552;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -105,6 +184,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -131,13 +211,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0540F03A4B7A0282C8E0F623 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meidu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32A4B1AFCBBAA9CB932FAC89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Meidu/Pods-Meidu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meidu/Pods-Meidu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F569A58751EED3F6B7A4D18B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meidu/Pods-Meidu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		263506411F5B060700A6C474 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2635064B1F5B060700A6C474 /* ViewController.swift in Sources */,
+				264285C21F603794000D5233 /* UsersVC.swift in Sources */,
+				264285C01F6036A6000D5233 /* UserCell.swift in Sources */,
+				26C466731F66B01500BCB460 /* FeedVC.swift in Sources */,
+				264285C71F60396C000D5233 /* User.swift in Sources */,
+				26A2FC821F610D3B008BB5E1 /* CircleImage.swift in Sources */,
+				26B47A851F5C44940068AD20 /* LoginVC.swift in Sources */,
+				262D2C711F657E7B00CDEDA4 /* PostCell.swift in Sources */,
+				26B47A871F5C44A60068AD20 /* SignUpVC.swift in Sources */,
 				263506491F5B060700A6C474 /* AppDelegate.swift in Sources */,
+				262B001B1F61712400A64847 /* UploadVC.swift in Sources */,
+				26C466711F66AFA500BCB460 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +409,10 @@
 		};
 		263506581F5B060700A6C474 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977433EBAAC01D4BF21154F0 /* Pods-Meidu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9T94R4M552;
 				INFOPLIST_FILE = Meidu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Huangz.Meidu;
@@ -272,8 +423,10 @@
 		};
 		263506591F5B060700A6C474 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737D2C856D67F6372B6B2CBC /* Pods-Meidu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9T94R4M552;
 				INFOPLIST_FILE = Meidu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Huangz.Meidu;
@@ -301,6 +454,7 @@
 				263506591F5B060700A6C474 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

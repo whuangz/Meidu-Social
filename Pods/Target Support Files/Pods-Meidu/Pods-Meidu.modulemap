@@ -1,0 +1,6 @@
+framework module Pods_Meidu {
+  umbrella header "Pods-Meidu-umbrella.h"
+
+  export *
+  module * { export * }
+}
